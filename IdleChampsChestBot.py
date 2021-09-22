@@ -4,40 +4,40 @@ import time
 import keyboard
 import random
 
-#silverchest
+#silver chest
 #RGB: (124,  83,  52)
 #X: 1975   Y:124
 
-#goldchest
+#gold chest
 #RGB: (124,  83,  52)
 #X: 1983?   Y:124?
 
-#openmultiplechest
+#open multiple chest
 #X: 2055 Y:  140
 
-#chestslider - red
+#chest slider - red
 #X: 2665 Y:  420
 #RGB: ( 71,  28,   5)
 
-#chestslider - yellow
+#chest slider - yellow
 #X: 2648 Y:  420
 #RGB: (225, 110,   0)
 
-#flipallcardsbutton - l
+#flip all cards button - L
 #X: 2647 Y:  387
 #RGB: (254, 254, 254)
 
 #See All Loot
 #X: 2663 Y:  388
-#(254, 254, 255)
+#RGB: (254, 254, 255)
 
 #Close The Loot Window
 #(x=3051, y=106)
 #RGB: (173,   0,   0)
 
 #Single chest done button
-#
-#
+#X: 2633 Y: 383
+#RGB: (254, 254, 255)
 
 #     pyautogui.displayMousePosition()
 
