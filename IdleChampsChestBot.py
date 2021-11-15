@@ -2,46 +2,46 @@ from pyautogui import *
 import pyautogui
 import time
 import keyboard
-import random
 
-#silver chest
+#silverchest
 #RGB: (124,  83,  52)
 #X: 1975   Y:124
 
-#gold chest
+#goldchest
 #RGB: (124,  83,  52)
 #X: 1983?   Y:124?
 
-#open multiple chest
+#openmultiplechest
 #X: 2055 Y:  140
 
-#chest slider - red
+#chestslider - red
 #X: 2665 Y:  420
 #RGB: ( 71,  28,   5)
 
-#chest slider - yellow
+#chestslider - yellow
 #X: 2648 Y:  420
 #RGB: (225, 110,   0)
 
-#flip all cards button - L
+#flipallcardsbutton - l
 #X: 2647 Y:  387
 #RGB: (254, 254, 254)
 
 #See All Loot
 #X: 2663 Y:  388
-#RGB: (254, 254, 255)
+#(254, 254, 255)
 
 #Close The Loot Window
 #(x=3051, y=106)
 #RGB: (173,   0,   0)
 
 #Single chest done button
-#X: 2633 Y: 383
-#RGB: (254, 254, 255)
+#
+#
 
 #     pyautogui.displayMousePosition()
 
 print('Press Ctrl-C to quit.')
+print('Hold Cntrl-Shift-+ to start Esc to end')
     
 def start():
     try:
@@ -87,6 +87,7 @@ try:
     while True:
         time.sleep(0.5)
         if keyboard.is_pressed('ctrl+shift+plus'):
+            print('Start')
             start()
             
 except KeyboardInterrupt:
